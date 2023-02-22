@@ -279,6 +279,8 @@ header {
 .project{
     max-width: 500px;
     margin: 0 auto;
+    background-color: #111111c3;
+    padding: .5rem;
 }
 
 @media (min-width: 800px) {
@@ -290,7 +292,7 @@ header {
     }
 
     .project + .project {
-        margin-left: .5em;
+        margin-left: .75em;
     }
 }
 
@@ -348,6 +350,11 @@ header {
         position: relative;
         z-index: 2;
     }
+
+    .about-me__body{
+        background-color: #111111c3;
+        padding: .5rem;
+    }
 }
 
 
@@ -363,6 +370,11 @@ header {
 .my-work {
     max-width: 1000px;
     margin: 0 auto;
+}
+.my-work__body{
+    background-color: #111111c3;
+    padding: .5rem;
+    margin-bottom: 0.5rem;
 }
 .my-work__img {
     box-shadow: var(--bs);
