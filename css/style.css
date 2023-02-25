@@ -284,6 +284,9 @@ header {
 }
 a{
     text-decoration: none;
+    font-size: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 .project-link{
     font-size: 1em;
