@@ -282,6 +282,16 @@ header {
     background-color: #111111c3;
     padding: .5rem;
 }
+a{
+    text-decoration: none;
+}
+.project-link{
+    font-size: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+
 
 @media (min-width: 800px) {
     .projects{ 
@@ -292,10 +302,7 @@ header {
 
         
     }
-    a{
-        text-decoration: none;
-    }
-
+  
     .project + .project {
         margin-left: .75em;
     }
