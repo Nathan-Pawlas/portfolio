@@ -57,7 +57,7 @@ const Contact = () => {
     <div className='xl:mt-12 xl:flex-rox flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div 
         variants={slideIn('left', "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.75] bg-black-100 bg-opacity-30 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact Me</h3>
@@ -75,7 +75,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder='Enter Name Here'
-              className='bg-tertiary py-4 px-6 placeholder: text-secondary text-white 
+              className='bg-tertiary bg-opacity-60 py-4 px-6 placeholder:text-[#242526] text-white 
               rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -87,7 +87,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder='Enter Email Here'
-              className='bg-tertiary py-4 px-6 placeholder: text-secondary text-white 
+              className='bg-tertiary bg-opacity-60 py-4 px-6 placeholder:text-[#242526] text-white 
               rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -99,7 +99,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='Enter Message Here'
-              className='bg-tertiary py-4 px-6 placeholder: text-secondary text-white 
+              className='bg-tertiary bg-opacity-60 py-4 px-6 placeholder:text-[#242526] text-white 
               rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -118,7 +118,10 @@ const Contact = () => {
         variants={slideIn('right', "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto h-[550px] sm:h-[350px]'
       >
+      <div className='bg-hero-glob5 bg-fill bg-center bg-no-repeat h-[350px]'>
         <RocketCanvas />
+      </div>
+        
       </motion.div>
     </div>
   );

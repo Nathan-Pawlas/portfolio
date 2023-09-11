@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-    className={'${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary'}>
+    className={'${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-indigo-600 bg-opacity-25'}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link to={"/"} className='flex items-center gap-2' 
         onClick={() => {
@@ -19,7 +19,7 @@ const Navbar = () => {
           window.scrollTo(0,0);
           }}>
           <img src={logo} alt="logo"
-          className='w-14 h-14 object-contain' />
+          className='w-20 h-14 object-fill' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'> 
             Nate &nbsp;<span className='sm:block hidden'>|&nbsp; Student Dev </span>
           </p>

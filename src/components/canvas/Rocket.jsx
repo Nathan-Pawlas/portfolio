@@ -8,10 +8,10 @@ const Rocket = () => {
 
   return (
     <mesh>
-      <spotLight intensity={25} position={[3, 4, 5]} color='#FCCEC4'/>
-      <ambientLight intensity={0.2} color='#D8F0F1'/>
-      <pointLight intensity={10} position={[1.75, -4, -2]} color='#CD7F32' />
-      <pointLight intensity={15} position={[2, -3, -1]} color='#CD7F32' />
+      <spotLight intensity={25} position={[3, 4, 5]} color='#edffff'/>
+      <ambientLight intensity={0.2} color='#edffff'/>
+      <pointLight intensity={10} position={[1.75, -4, -2]} color='#f1baff' />
+      <pointLight intensity={15} position={[2, -3, -1]} color='#f1baff' />
       <primitive 
         object={rocket.scene}
         scale={4}

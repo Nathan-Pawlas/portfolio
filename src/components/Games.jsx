@@ -16,7 +16,7 @@ const GameCard = ({ index, name, description, tags, image, source_code_link }) =
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary bg-opacity-75 p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img 
@@ -58,9 +58,9 @@ const GameCard = ({ index, name, description, tags, image, source_code_link }) =
 const Games = () => {
   return (
     <>
-      <motion.div variants={textVariant()} className={`bg-black-100 rounded-[20px]`}>
+    <motion.div variants={textVariant()} className={`mt-12 bg-black-100 bg-opacity-30 rounded-[20px] px-2 py-2`}>
         <div
-          className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+          className={`bg-tertiary bg-opacity-50 rounded-2xl ${styles.padding} min-h-[300px]`}
         >
           <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText}></p>
@@ -79,7 +79,7 @@ const Games = () => {
           sunt in culpa qui officia deserunt mollit anim id est laborum.
           </motion.p>
         </div>
-        <div className="mt-20 flex flex-wrap gap-7">
+        <div className="mt-20 flex flex-wrap gap-7 justify-center">
         {projects.map((project, index) => (
           <GameCard
             key={`project-${index}`}

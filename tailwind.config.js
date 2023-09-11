@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
+        primary: "#2d848a",
+        secondary: "#dfe6e4 ",
+        tertiary: "#773aa6",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -19,7 +19,12 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/herobg.jpg')",
+        "hero-glob1": "url('/src/assets/globAssets/clay1.png')",
+        "hero-glob2": "url('/src/assets/globAssets/clay2.png')",
+        "hero-glob3": "url('/src/assets/globAssets/clay3.png')",
+        "hero-glob4": "url('/src/assets/globAssets/clay4.png')",
+        "hero-glob5": "url('/src/assets/globAssets/clay5.png')",
       },
     },
   },

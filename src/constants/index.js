@@ -4,17 +4,12 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -22,7 +17,10 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    c,
+    cpp,
+    java,
+    unity,
   } from "../assets";
   
   export const navLinks = [
@@ -50,15 +48,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Graphics Programmer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Frontend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Game Creator",
       icon: creator,
     },
   ];
@@ -77,16 +75,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -97,24 +87,24 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "c",
+      icon: c,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "cpp",
+      icon: cpp,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "unity",
+      icon: unity,
     },
   ];
   
