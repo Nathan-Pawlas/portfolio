@@ -118,7 +118,7 @@ const Contact = () => {
         variants={slideIn('right', "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto h-[550px] sm:h-[350px]'
       >
-      <div className='bg-hero-glob5 bg-fill bg-center bg-no-repeat h-[350px]'>
+      <div className='bg-hero-glob5 z-0 bg-contain bg-center bg-no-repeat h-[350px]'>
         <RocketCanvas />
       </div>
         

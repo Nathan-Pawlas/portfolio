@@ -33,7 +33,7 @@ const App = () => {
         <Games />
         <div className='relative z-0'>
           <Contact />
-          <StarsCanvas />
+          <StarsCanvas className='z-1'/>
         </div>
       </div>
     </BrowserRouter>
