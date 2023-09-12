@@ -14,11 +14,14 @@ import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import link from "./link.png";
 
-import meta from "./company/meta.png";
+
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import uva from "./company/uva.png";
+import uvacc from "./company/uvacc.png";
+import sl from "./company/sl.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -29,11 +32,22 @@ import cpp from "./tech/cpp.png";
 import java from "./tech/java.svg";
 import unity from "./tech/unity.png";
 
+import sea from "./sea.png"
+import itch from "./itch.png"
+import rt from "./rt.png"
+import ge from "./ge.png"
+import wip from "./wip.png"
+
 export {
   logo,
+  ge,
+  wip,
+  rt,
   backend,
+  itch,
   background,
   creator,
+  sea,
   mobile,
   web,
   github,
@@ -46,10 +60,11 @@ export {
   nodejs,
   reactjs,
   tailwind,
-  meta,
   shopify,
+  uvacc,
+  uva,
+  sl,
   starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -57,4 +72,5 @@ export {
   cpp,
   java,
   unity,
+  link,
 };

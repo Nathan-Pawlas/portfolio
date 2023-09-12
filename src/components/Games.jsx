@@ -1,13 +1,13 @@
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { styles } from "../style"
-import { github } from "../assets"
+import { github, itch } from "../assets"
 import { SectionWrapper } from "../hoc"
-import { projects } from "../constants" 
+import { games, projects } from "../constants" 
 import { fadeIn, textVariant } from '../utils/motion'
 
 
-const GameCard = ({ index, name, description, tags, image, source_code_link }) => {
+const GameCard = ({ index, name, description, tags, image, source_code_link, site_link, linkBool }) => {
   return(
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -28,8 +28,19 @@ const GameCard = ({ index, name, description, tags, image, source_code_link }) =
             className="absolute inset-0 flex justify-end m-3 card-img_hover"
           >
             <div
+              
+              onClick={() => window.open(site_link, "_blank")}
+              className={`green-pink-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ${linkBool ? 'visible' : 'invisible'}`}
+            >
+              <img 
+                src={itch}
+                alt="link"
+                className="w-8 h-8 object-contain"
+              />
+            </div>
+            <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="green-pink-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img 
                 src={github}
@@ -70,21 +81,23 @@ const Games = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
           >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, 
-          sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p>
+              I have had a passion for games and game design since childhood. As a kid I used to design board/card games
+              for fun. In recent years I have taken up game programming as a hobby to express my passion for games. I am
+              currently the Head of Directors for the UVA Student Game Developers, where I help many of my fellow peers in
+              the game creation process. I am also directing my own game this semester with a team of 15+ students.
+            </p>
+            <p className="mt-2">
+              Below is a seletion of games from Student Game Developers I have worked on:
+            </p>
           </motion.p>
         </div>
         <div className="mt-20 flex flex-wrap gap-7 justify-center">
-        {projects.map((project, index) => (
+        {games.map((games, index) => (
           <GameCard
-            key={`project-${index}`}
+            key={`game-${index}`}
             index={index}
-            {...project}
+            {...games}
           />
         ))}
         </div>
