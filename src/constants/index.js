@@ -129,10 +129,9 @@ import {
       iconBg: "#383E56",
       date: "May 2023 - August 2023",
       points: [
-        "Automating business intelligence dashboard updates and other processes with Python and related technologies.",
-        "Building large portions of the new Career Center website, including various components such as a breadcrumb page tracking, utilizing Javascript and HTML.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Maintaining University's technical infastructure including servers, computers, and more."
+        "Automated business intelligence dashboard updates and other processes with Python and related technologies.",
+        "Built large portions of the new Career Center website, including various components such as a breadcrumb page tracking, utilizing Javascript and HTML.",
+        "Maintained University's technical infastructure including servers, computers, and more."
       ],
     },
     {
@@ -142,11 +141,11 @@ import {
       iconBg: "#383E56",
       date: "May 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        "Onboarding other Interns, helping to set up their development environments and adjust to a fast-paced Agile environment."
+        "Developed and maintained a suite of software using React.js and other related technologies.",
+        "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implemented dynamic theme switching and ensured cross-browser compatibility.",
+        "Participated in code reviews and provided constructive feedback to other developers.",
+        "Onboarded other Interns, helping to set up their development environments and adjust to a fast-paced Agile environment."
       ],
     },
   ];
