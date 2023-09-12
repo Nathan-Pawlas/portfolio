@@ -51,7 +51,7 @@ const Navbar = () => {
             onClick = {() => setToggle(!toggle)}
           />
             <div className={`${!toggle ? 'hidden' : 'flex'} p-6 
-            black-gradient absolute 
+            bg-gradient-to-br from-indigo-500 to-pink-500 absolute 
             top-20 right-0 
             mx-4 my-2 
             min-w[140px] 
