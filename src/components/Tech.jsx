@@ -9,11 +9,11 @@ const Tech = () => {
         <div
           className="w-28 h-28"
           key={technology.name}>
-          <BallCanvas icon={technology.icon}/>
+          <BallCanvas icon={technology.icon} index={technology.index}/>
         </div>
       ))}
     </div>
   )
 }
 
-export default SectionWrapper(Tech, "tech")
+export default SectionWrapper(Tech, "")
