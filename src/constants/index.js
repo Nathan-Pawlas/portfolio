@@ -198,7 +198,7 @@ import {
     {
       name: "3D Ray Tracer",
       description:
-        "W.I.P. | An extension in my study of 3D graphics, utilizing OpenGL and GLFW to create a context in which rays are fired from the camera to immitate the traversal of light in rendering a 3D image",
+        "W.I.P. | An extension to my study of 3D graphics, utilizing OpenGL and GLFW to create a context in which rays are fired from the camera to immitate the traversal of light in rendering a 3D image",
       tags: [
         {
           name: "c++",
