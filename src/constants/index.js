@@ -127,7 +127,7 @@ import {
       company_name: "UVA Career Center",
       icon: uvacc,
       iconBg: "#383E56",
-      date: "May 2023 - August 2023",
+      date: "Febuary 2022 - May 2023",
       points: [
         "Automated business intelligence dashboard updates and other processes with Python and related technologies.",
         "Built large portions of the new Career Center website, including various components such as a breadcrumb page tracking, utilizing Javascript and HTML.",
