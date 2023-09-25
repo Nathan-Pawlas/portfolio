@@ -23,6 +23,7 @@ import {
     rt,
     ge,
     wip,
+    cs,
   } from "../assets";
   
   export const navLinks = [
@@ -146,6 +147,18 @@ import {
         "Implemented dynamic theme switching and ensured cross-browser compatibility.",
         "Participated in code reviews and provided constructive feedback to other developers.",
         "Onboarded other Interns, helping to set up their development environments and adjust to a fast-paced Agile environment."
+      ],
+    },
+    {
+      title: "Teaching Assistant",
+      company_name: "UVA Computer Science",
+      icon: cs,
+      iconBg: "#383E56",
+      date: "August 2023 - Present",
+      points: [
+        "Leading teaching initiatives to increase understanding of computing fundamentals including binary, assembly, and C",
+        "Directing Lab for students and TA's to ensure a smooth, interactive, and fruitful experience for all",
+        "Offering indepth one-on-one reviews of various topics in the fundamentals of Computer Architecture and Operating Systems",
       ],
     },
   ];

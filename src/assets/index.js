@@ -22,6 +22,7 @@ import starbucks from "./company/starbucks.png";
 import uva from "./company/uva.png";
 import uvacc from "./company/uvacc.png";
 import sl from "./company/sl.png";
+import cs from "./company/cs.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -39,6 +40,7 @@ import ge from "./ge.png"
 import wip from "./wip.png"
 
 export {
+  cs,
   logo,
   ge,
   wip,
