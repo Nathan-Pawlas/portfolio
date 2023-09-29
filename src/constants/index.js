@@ -183,9 +183,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/Nathan-Pawlas/Blog-Website",
-      site_link: "https://natedoesthing.netlify.app/",
-      linkBool: true,
+      source_code_link: "https://github.com/Nathan-Pawlas/NewBlog",
     },
     {
       name: "3D Graphics Engine",
