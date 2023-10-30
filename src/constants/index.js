@@ -24,6 +24,7 @@ import {
     ge,
     wip,
     cs,
+    hell,
   } from "../assets";
   
   export const navLinks = [
@@ -267,7 +268,25 @@ import {
         },
       ],
       image: wip,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/UVASGD/fall-2023-quicksilver/tree/main",
+    },
+    {
+      name: "Hell Climbers",
+      description:
+        "Created in 48 hours, this was a submission to a locally run Halloween Game Jam with the theme of 'Resurection'.",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C-sharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hell,
+      source_code_link: "https://github.com/Nathan-Pawlas/spooky_game_jam",
+      site_link: "https://buzjr.itch.io/hell-climber",
     },
   ];
   
