@@ -38,7 +38,7 @@ import itch from "./itch.png"
 import rt from "./rt.png"
 import ge from "./ge.png"
 import wip from "./wip.png"
-import wip from "./hell.jpg"
+import hell from "./hell.jpg"
 
 export {
   cs,
