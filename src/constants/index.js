@@ -25,6 +25,7 @@ import {
     wip,
     cs,
     hell,
+    gnr,
   } from "../assets";
   
   export const navLinks = [
@@ -168,7 +169,7 @@ import {
     {
       name: "Blog Site",
       description:
-        "Fullstack Website developed utilizing React.js, Express.js, and MySQL allowing for easy post creation and email listings.",
+        "Full Stack blog site, developed utilizing react-js and nodejs. Utilized front end and css skills developed during my summer 2023 internship.",
       tags: [
         {
           name: "react",
@@ -184,7 +185,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/Nathan-Pawlas/NewBlog",
+      source_code_link: "https://github.com/Nathan-Pawlas/Blog-Website",
     },
     {
       name: "3D Graphics Engine",
@@ -210,7 +211,7 @@ import {
     {
       name: "3D Ray Tracer",
       description:
-        "W.I.P. | An extension to my study of 3D graphics, utilizing OpenGL and GLFW to create a context in which rays are fired from the camera to immitate the traversal of light in rendering a 3D image",
+        "An extension to my 3D graphics studies, implemented realistic lighting simulation including reflections, refractions, diffusions, fog, texture and uv mapping, and more. Written c++ to load the color of the image pixel by pixel into a .ppm format.",
       tags: [
         {
           name: "c++",
@@ -222,7 +223,7 @@ import {
         },
       ],
       image: rt,
-      source_code_link: "https://github.com/Nathan-Pawlas/RayTracer",
+      source_code_link: "https://github.com/Nathan-Pawlas/RTW",
     },
   ];
   const games = [
@@ -269,6 +270,7 @@ import {
       ],
       image: wip,
       source_code_link: "https://github.com/UVASGD/fall-2023-quicksilver/tree/main",
+      site_link: "https://buzjr.itch.io/quicksilver"
     },
     {
       name: "Hell Climbers",
@@ -287,6 +289,23 @@ import {
       image: hell,
       source_code_link: "https://github.com/Nathan-Pawlas/spooky_game_jam",
       site_link: "https://buzjr.itch.io/hell-climber",
+    },
+    {
+      name: "Gold and Rot",
+      description:
+        "Current semester long project I am directing with a team of 12+ members. This is a metroidvania with an emphasis on exploration and atmosphere. Designed to have tight controls and satisfying movement. Created in Godot using GDScript.",
+      tags: [
+        {
+          name: "Godot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Leadership",
+          color: "red-text-gradient",
+        },
+      ],
+      image: gnr,
+      source_code_link: "https://github.com/Nathan-Pawlas/spring-2024-metroidvania",
     },
   ];
   

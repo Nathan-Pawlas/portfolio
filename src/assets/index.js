@@ -39,6 +39,7 @@ import rt from "./rt.png"
 import ge from "./ge.png"
 import wip from "./wip.png"
 import hell from "./hell.jpg"
+import gnr from "./GNR.png"
 
 export {
   cs,
@@ -77,4 +78,5 @@ export {
   unity,
   link,
   hell,
+  gnr,
 };
